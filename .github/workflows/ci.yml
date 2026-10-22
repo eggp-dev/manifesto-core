@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24.14.0
+          node-version: 24.22.1
 
       - name: Validate pull request title
         run: node scripts/check-pr-title.mjs
@@ -43,7 +43,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24.14.0
+          node-version: 24.22.1
 
       - name: Validate commit messages
         run: node scripts/check-commit-messages.mjs
@@ -57,7 +57,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [24.14.0]
+        node-version: [24.22.1]
 
     steps:
       - name: Checkout
@@ -110,7 +110,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24.14.0
+          node-version: 24.22.1
           cache: 'pnpm'
 
       - name: Install dependencies
