@@ -35,13 +35,13 @@ This is the canonical entry story for new integrations.
 
 | Package | Current Contract | Role |
 |---------|------------------|------|
-| `@manifesto-ai/core` | [core-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/core/docs/core-SPEC.md) (current through v5.0.0 ADR-025/ADR-027/ADR-028 baseline) | Pure semantic runtime, schema validation, patch/apply semantics, dynamic Flow patch target resolution |
-| `@manifesto-ai/host` | [host-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/host/docs/host-SPEC.md) (current through v5.0.0 ADR-025/ADR-027/ADR-028 alignment) | Effect execution, context materialization, compute loop orchestration, canonical snapshot substrate, concrete patch application |
-| `@manifesto-ai/sdk` | [sdk-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/sdk/docs/sdk-SPEC.md) (current v5.0.0 ADR-026/ADR-027 surface) | Action-candidate application surface, projected reads, observe/inspect, law-aware `submit()` ingress |
-| `@manifesto-ai/compiler` | [SPEC-v1.2.0.md](https://github.com/manifesto-ai/core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md) (current v5.0.0 in-place) | Full current MEL compiler contract; source-to-schema/source-to-IR lowering |
-| `@manifesto-ai/lineage` | [lineage-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/lineage/docs/lineage-SPEC.md) (current v5.0.0 ADR-026/ADR-027 surface) | Seal-aware continuity, lineage-mode `submit()` results, canonical snapshot persistence, replay envelope, restore |
-| `@manifesto-ai/governance` | [governance-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/governance/docs/governance-SPEC.md) (current v5.0.0 ADR-026/ADR-027 surface) | Proposal legitimacy, submitted compute envelope preservation, governance-mode `submit()` results, durable `ProposalRef`, settlement observation, and control surface |
-| `@manifesto-ai/codegen` | [SPEC-v0.1.1.md](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md) (current v5.0.0 package release, v5 facade alignment in-place) | Build-time domain facade generation aligned to ADR-025 ontology and ADR-026 SDK v5 action candidates |
+| `@manifesto-ai/core` | [core-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/core/docs/core-SPEC.md) (current through v5.0.0 ADR-025/ADR-027/ADR-028 baseline) | Pure semantic runtime, schema validation, patch/apply semantics, dynamic Flow patch target resolution |
+| `@manifesto-ai/host` | [host-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/host/docs/host-SPEC.md) (current through v5.0.0 ADR-025/ADR-027/ADR-028 alignment) | Effect execution, context materialization, compute loop orchestration, canonical snapshot substrate, concrete patch application |
+| `@manifesto-ai/sdk` | [sdk-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/sdk/docs/sdk-SPEC.md) (current v5.0.0 ADR-026/ADR-027 surface) | Action-candidate application surface, projected reads, observe/inspect, law-aware `submit()` ingress |
+| `@manifesto-ai/compiler` | [SPEC-v1.2.0.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md) (current v5.0.0 in-place) | Full current MEL compiler contract; source-to-schema/source-to-IR lowering |
+| `@manifesto-ai/lineage` | [lineage-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/lineage/docs/lineage-SPEC.md) (current v5.0.0 ADR-026/ADR-027 surface) | Seal-aware continuity, lineage-mode `submit()` results, canonical snapshot persistence, replay envelope, restore |
+| `@manifesto-ai/governance` | [governance-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/governance/docs/governance-SPEC.md) (current v5.0.0 ADR-026/ADR-027 surface) | Proposal legitimacy, submitted compute envelope preservation, governance-mode `submit()` results, durable `ProposalRef`, settlement observation, and control surface |
+| `@manifesto-ai/codegen` | [SPEC-v0.1.1.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md) (current v5.0.0 package release, v5 facade alignment in-place) | Build-time domain facade generation aligned to ADR-025 ontology and ADR-026 SDK v5 action candidates |
 
 ## ADR-025 v5 Ontology Baseline
 
@@ -203,7 +203,7 @@ Current extension seam:
 
 `@manifesto-ai/compiler` is now described by one current full contract:
 
-- [SPEC-v1.2.0.md](https://github.com/manifesto-ai/core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md)
+- [SPEC-v1.2.0.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md)
   (current v5.0.0 in-place)
 
 Current MEL/compiler highlights:

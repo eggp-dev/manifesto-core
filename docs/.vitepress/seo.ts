@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import type { HeadConfig, PageData } from 'vitepress'
 
-export const SITE_URL = 'https://docs.manifesto-ai.dev'
+export const SITE_URL = 'https://manifesto-docs.eggp.dev'
 export const SITE_TITLE = 'Manifesto'
 export const SITE_HANDLE = '@eggplantiny'
 export const SITE_DESCRIPTION = 'Deterministic semantic layer for apps, backends, and agents. Define your domain once in MEL, run it through the SDK, and add approval or history only when needed.'
@@ -287,10 +287,10 @@ function buildStructuredData(input: {
         '@type': 'SoftwareSourceCode',
         name: SITE_TITLE,
         url: SITE_URL,
-        codeRepository: 'https://github.com/manifesto-ai/core',
+        codeRepository: 'https://github.com/eggp-dev/manifesto-core',
         description: SITE_DESCRIPTION,
         programmingLanguage: ['TypeScript', 'MEL'],
-        license: 'https://github.com/manifesto-ai/core/blob/main/LICENSE'
+        license: 'https://github.com/eggp-dev/manifesto-core/blob/main/LICENSE'
       }
     ]
   }

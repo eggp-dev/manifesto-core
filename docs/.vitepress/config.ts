@@ -274,7 +274,7 @@ gtag('config', 'G-FW564PKJWF');`],
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/manifesto-ai/core' }
+      { icon: 'github', link: 'https://github.com/eggp-dev/manifesto-core' }
     ],
 
     search: {

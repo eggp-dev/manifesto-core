@@ -7,7 +7,7 @@ of the base runtime ontology.
 > **Current Contract Note:** This page describes the current Governance v5
 > decorator surface: governance-mode `submit()`, durable `ProposalRef`,
 > `waitForSettlement(ref)`, and governance control methods. See
-> [packages/governance/docs/governance-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/governance/docs/governance-SPEC.md).
+> [packages/governance/docs/governance-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/governance/docs/governance-SPEC.md).
 
 ## Runtime Surface
 

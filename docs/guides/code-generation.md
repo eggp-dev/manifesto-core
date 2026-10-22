@@ -345,4 +345,4 @@ patches: [{ op: "set", path: "../escape.ts", content: "..." }]   // traversal
 - **[Tutorial](/tutorial/)** -- Learn Manifesto from scratch
 - **[MEL For App Developers](/guide/essentials/mel-for-app-developers)** -- Write the domain code that codegen reads
 - **[Runnable Examples](/guide/runnable-examples)** -- Check the generated facade in a working app
-- **[Package GUIDE](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/GUIDE.md)** -- Custom plugin tutorial and advanced usage
+- **[Package GUIDE](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/GUIDE.md)** -- Custom plugin tutorial and advanced usage

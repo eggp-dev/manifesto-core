@@ -27,20 +27,20 @@ If an older ADR conflicts with a current package SPEC on runtime surface details
 
 | Package | SPEC | Status | Package Docs |
 |---------|------|--------|--------------|
-| **@manifesto-ai/core** | [Living Document](https://github.com/manifesto-ai/core/blob/main/packages/core/docs/core-SPEC.md) (v5.0.0) | Normative | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/core/docs/VERSION-INDEX.md) |
-| **@manifesto-ai/host** | [Living Document](https://github.com/manifesto-ai/core/blob/main/packages/host/docs/host-SPEC.md) (v5.0.0) | Normative | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/host/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/core** | [Living Document](https://github.com/eggp-dev/manifesto-core/blob/main/packages/core/docs/core-SPEC.md) (v5.0.0) | Normative | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/core/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/host** | [Living Document](https://github.com/eggp-dev/manifesto-core/blob/main/packages/host/docs/host-SPEC.md) (v5.0.0) | Normative | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/host/docs/VERSION-INDEX.md) |
 
 ### Application and Decorator Packages
 
 | Package | SPEC | Status | Package Docs |
 |---------|------|--------|--------------|
-| **@manifesto-ai/sdk** | [Living Document](https://github.com/manifesto-ai/core/blob/main/packages/sdk/docs/sdk-SPEC.md) (v5.0.0 surface) | Normative (ADR-026 action-candidate runtime grammar, projected state/computed read handles, observe/inspect, and law-aware `submit()`) | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/sdk/docs/VERSION-INDEX.md) |
-| **@manifesto-ai/lineage** | [Living Document](https://github.com/manifesto-ai/core/blob/main/packages/lineage/docs/lineage-SPEC.md) (v5.0.0 surface) | Normative (continuity decorator + lineage-mode `submit()` results + `WorldRecord` refs + ADR-025 restore/hash alignment) | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/lineage/docs/VERSION-INDEX.md) |
-| **@manifesto-ai/governance** | [Living Document](https://github.com/manifesto-ai/core/blob/main/packages/governance/docs/governance-SPEC.md) (v5.0.0 surface) | Normative (legitimacy decorator + governance-mode `submit()` results + durable `ProposalRef` + `waitForSettlement(ref)`) | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/governance/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/sdk** | [Living Document](https://github.com/eggp-dev/manifesto-core/blob/main/packages/sdk/docs/sdk-SPEC.md) (v5.0.0 surface) | Normative (ADR-026 action-candidate runtime grammar, projected state/computed read handles, observe/inspect, and law-aware `submit()`) | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/sdk/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/lineage** | [Living Document](https://github.com/eggp-dev/manifesto-core/blob/main/packages/lineage/docs/lineage-SPEC.md) (v5.0.0 surface) | Normative (continuity decorator + lineage-mode `submit()` results + `WorldRecord` refs + ADR-025 restore/hash alignment) | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/lineage/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/governance** | [Living Document](https://github.com/eggp-dev/manifesto-core/blob/main/packages/governance/docs/governance-SPEC.md) (v5.0.0 surface) | Normative (legitimacy decorator + governance-mode `submit()` results + durable `ProposalRef` + `waitForSettlement(ref)`) | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/governance/docs/VERSION-INDEX.md) |
 | **@manifesto-ai/runtime** | Retired | Superseded (ADR-010, no successor) — package removed from workspace | — |
 | **App facade (retired)** | Removed (R2) | Historical reference only | [Retired Page](/internals/retired/app) |
-| **@manifesto-ai/compiler** | [SPEC-v1.2.0.md](https://github.com/manifesto-ai/core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md) (current v5.0.0 in-place) | Normative full MEL compiler contract aligned to ADR-025 | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/compiler/docs/VERSION-INDEX.md) |
-| **@manifesto-ai/codegen** | [SPEC-v0.1.1.md](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md) (current v5.0.0 package release, in-place contract) | Normative build-time domain facade baseline aligned to ADR-025 Snapshot ontology and ADR-026 SDK v5 action candidates | [VERSION-INDEX](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/compiler** | [SPEC-v1.2.0.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md) (current v5.0.0 in-place) | Normative full MEL compiler contract aligned to ADR-025 | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/compiler/docs/VERSION-INDEX.md) |
+| **@manifesto-ai/codegen** | [SPEC-v0.1.1.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md) (current v5.0.0 package release, in-place contract) | Normative build-time domain facade baseline aligned to ADR-025 Snapshot ontology and ADR-026 SDK v5 action candidates | [VERSION-INDEX](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/VERSION-INDEX.md) |
 
 > **Current Governed Direction:** `createManifesto() -> withLineage() -> withGovernance() -> activate()`
 
@@ -70,29 +70,29 @@ The `@manifesto-ai/runtime` package is **retired**. Its responsibilities are abs
 
 ### Core
 
-- **Core SPEC** — [core-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/core/docs/core-SPEC.md) (Living Document, current through v5.0.0)
+- **Core SPEC** — [core-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/core/docs/core-SPEC.md) (Living Document, current through v5.0.0)
   - Updated directly in the living document; ADR-025 retires `Snapshot.data`, promotes `snapshot.state`, adds `snapshot.namespaces`, and makes patch roots channel-determined
 
 ### Host
 
-- **Host SPEC** — [host-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/host/docs/host-SPEC.md) (Living Document, current through v5.0.0)
+- **Host SPEC** — [host-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/host/docs/host-SPEC.md) (Living Document, current through v5.0.0)
   - Updated directly in the living document; ADR-025 aligns Host to canonical `snapshot.state`, `snapshot.namespaces`, and the domain patch / namespace delta / system delta interlock
   - Deprecated §9 (Compiler Integration) moved to Appendix D
 
 ### Lineage
 
-- **Lineage SPEC** — [lineage-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/lineage/docs/lineage-SPEC.md) (Living Document, current v5.0.0 surface)
+- **Lineage SPEC** — [lineage-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/lineage/docs/lineage-SPEC.md) (Living Document, current v5.0.0 surface)
   - Defines `withLineage()`, lineage-mode `submit()`, `WorldRecord` result refs, `getWorldSnapshot()` stored sealed canonical snapshot lookup, restore, and branch/head runtime queries
 
 ### Governance
 
-- **Governance SPEC** — [governance-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/governance/docs/governance-SPEC.md) (Living Document, current v5.0.0 surface)
+- **Governance SPEC** — [governance-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/governance/docs/governance-SPEC.md) (Living Document, current v5.0.0 surface)
   - Defines `withGovernance()`, explicit lineage prerequisite, governance-mode `submit()`, durable `ProposalRef`, `waitForSettlement(ref)`, control surface, and post-seal governance visibility
 
 ### SDK
 
 - **SDK SPEC** (Living Document)
-  - [sdk-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/sdk/docs/sdk-SPEC.md)
+  - [sdk-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/sdk/docs/sdk-SPEC.md)
   - SDK v5 action-candidate surface — `createManifesto()` returns a composable manifesto, runtime verbs appear only after `activate()`, and the current root is `snapshot()`, `context()`, `injectContext()`, `updateContext()`, `with(view)`, `action`, `state`, `computed`, `observe`, `inspect`, and `dispose()`
   - The current action ladder is `info()`, `available()`, `check()`, `preview()`, `submit()`, and `bind()`; v3 root verbs such as `simulate()`, `dispatchAsync()`, and `createIntent()` are historical migration inputs
   - `state.*` and `computed.*` expose typed read-only `value()` / `observe((next, prev) => ...)` handles over projected top-level fields
@@ -100,13 +100,13 @@ The `@manifesto-ai/runtime` package is **retired**. Its responsibilities are abs
 ### Compiler (MEL)
 
 - **Compiler SPEC v5.0.0** (Current Full, in-place file path)
-  - [SPEC-v1.2.0.md](https://github.com/manifesto-ai/core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md)
+  - [SPEC-v1.2.0.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/compiler/docs/SPEC-v1.2.0.md)
   - Rolls up `SchemaGraph`, `dispatchable when`, `TypeDefinition`-backed schema-position lowering, pure collection builtins, object-literal spread with presence-aware object typing, compiler-owned source-fragment editing, and ADR-025 namespace separation into the current MEL compiler contract
 
 ### Codegen
 
 - **Codegen SPEC v5.0.0** (Current package release, in-place file path)
-  - [SPEC-v0.1.1.md](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md)
+  - [SPEC-v0.1.1.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md)
   - Defines the deterministic build-time plugin runner, canonical domain facade generation, SDK v5 `ActionHandle` / `ActionInput` / `ActionArgs` type alignment, static `action.*` facade typing, reserved public action-name rejection, and ADR-025 `snapshot.state` / `snapshot.namespaces` separation
 
 ---
