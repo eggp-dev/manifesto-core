@@ -83,4 +83,4 @@ Foundational Design Records explaining the "why" behind decisions. See the [FDR 
 
 ## Contributing
 
-See the [Contributing Guide](https://github.com/manifesto-ai/core/blob/main/CONTRIBUTING.md) for how to contribute to Manifesto.
+See the [Contributing Guide](https://github.com/eggp-dev/manifesto-core/blob/main/CONTRIBUTING.md) for how to contribute to Manifesto.

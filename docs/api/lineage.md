@@ -8,7 +8,7 @@
 restore, audit, branch/head queries, and sealed records to a Manifesto app
 definition. It is not part of the base runtime ontology.
 
-> **Current Contract Note:** This page describes the Lineage v5 action handle surface. The package contract is [packages/lineage/docs/lineage-SPEC.md](https://github.com/manifesto-ai/core/blob/main/packages/lineage/docs/lineage-SPEC.md).
+> **Current Contract Note:** This page describes the Lineage v5 action handle surface. The package contract is [packages/lineage/docs/lineage-SPEC.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/lineage/docs/lineage-SPEC.md).
 
 Use this package when you want:
 

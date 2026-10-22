@@ -189,6 +189,6 @@ const header = generateHeader({ schemaHash: "abc123" });
 ## Documentation
 
 - **[Usage Guide](/guides/code-generation)** -- Step-by-step guide with examples
-- **[Package GUIDE.md](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/GUIDE.md)** -- Detailed package guide with custom plugin tutorial
-- **[SPEC-v0.1.1](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md)** -- Normative specification
-- **[ADR-CODEGEN-001](https://github.com/manifesto-ai/core/blob/main/packages/codegen/docs/ADR-CODEGEN-001.md)** -- Architecture decisions
+- **[Package GUIDE.md](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/GUIDE.md)** -- Detailed package guide with custom plugin tutorial
+- **[SPEC-v0.1.1](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/SPEC-v0.1.1.md)** -- Normative specification
+- **[ADR-CODEGEN-001](https://github.com/eggp-dev/manifesto-core/blob/main/packages/codegen/docs/ADR-CODEGEN-001.md)** -- Architecture decisions
